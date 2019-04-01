@@ -8,8 +8,10 @@ use Illuminate\Support\Facades\DB;
 class IndexController extends Controller
 {
     public function index() {
-        $pdo = DB::connection()->getPdo();
-        dd($pdo);
+        // $action = \Route::current()->getActionName();
+        // dd($action);
+        $action = \Route::current()->getActionName();
+        dd($action);
 
         return view('welcome');
     }

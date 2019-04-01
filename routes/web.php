@@ -16,3 +16,8 @@
 // });
 
 Route::get('/', 'IndexController@index');
+
+Route::any('admin/login', 'Admin\LoginController@login');
+
+
+Route::get('admin/base', 'Admin\BaseController@base');
