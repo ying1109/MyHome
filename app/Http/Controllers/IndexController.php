@@ -10,7 +10,7 @@ class IndexController extends Controller
     public function index() {
 
 
-        return view('layouts.admin.index');
+        return view('layouts.admin');
     }
 
 

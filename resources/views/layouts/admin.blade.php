@@ -12,8 +12,8 @@
 </head>
 <body>
 
-@include('layouts.admin.header')
-@include('layouts.admin.sidebar')
+@include('layouts.header')
+@include('layouts.sidebar')
 {{--<div class="content">我是首页的内容</div>--}}
 <div id="content">
     <section class="content-header">

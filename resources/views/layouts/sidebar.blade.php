@@ -3,7 +3,7 @@
     <ul class="sidebar_menu">
         {{--首页--}}
         <li class="treeview">
-            <a>
+            <a href="{{url('index')}}">
                 <i class="fa fa-database fa-fw"></i><span>首页</span>
             </a>
         </li>
