@@ -1,0 +1,10 @@
+/** {*/
+    /*margin: 0px;*/
+    /*padding: 0px;*/
+/*}*/
+
+.bg_banner {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid red;
+}

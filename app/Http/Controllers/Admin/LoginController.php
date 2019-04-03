@@ -8,10 +8,9 @@ use App\Http\Controllers\Controller;
 class LoginController extends CommonController
 {
     public function login() {
-        echo 56456;
 
 
-
+        return view('admin.login.login');
     }
 
 
